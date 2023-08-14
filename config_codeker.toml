@@ -1,0 +1,73 @@
+baseURL = 'http://www.lianghongbo.com/'
+languageCode = 'zh'
+defaultContentLanguage = "zh"
+title = '梁红博个人主页'
+theme = "hugo-coder"
+
+paginate = 20
+
+disqusShortname = "梁红博个人主页"
+
+[markup.highlight]
+style = "github-dark"
+
+[params]
+  author = "梁红博"
+  info = "一名自由的独立的全栈开发工程师"
+  description = "梁红博一名自由的独立的全栈开发工程师的个人主页"
+  keywords = "博客,自由工作者,个人主页,开发工程师"
+  avatarurl = "images/avatar3.png"
+  #gravatar = "john.doe@example.com"
+
+  faviconSVG = "/img/favicon.svg"
+  favicon_32 = "/img/favicon-32x32.png"
+  favicon_16 = "/img/favicon-16x16.png"
+
+  since = 2023
+
+  enableTwemoji = true
+
+  colorScheme = "auto"
+  hidecolorschemetoggle = false
+
+  # customCSS = ["css/custom.css"]
+  # customSCSS = ["scss/custom.scss"]
+  # customJS = ["js/custom.js"]
+
+[taxonomies]
+  category = "categories"
+  series = "series"
+  tag = "tags"
+  author = "authors"
+
+# Social links
+[[params.social]]
+  name = "Github"
+  icon = "fa fa-github fa-2x"
+  weight = 1
+  url = "https://github.com/herbieliang"
+[[params.social]]
+  name = "码云"
+  icon = "fa fa-git fa-2x"
+  weight = 2
+  url = "https://gitee.com/lianghongbo"
+[[params.social]]
+  name = "微博"
+  icon = "fa fa-weibo fa-2x"
+  weight = 3
+  url = "https://weibo.com/zachsf"
+[[params.social]]
+  name = "发邮件给我"
+  icon = "fa fa-envelope fa-2x"
+  weight = 4
+  url = "mailto:mail@lianghongbo.com"
+
+# Menu links
+[[menu.main]]
+  name = "博文"
+  weight = 1
+  url  = "posts/"
+[[menu.main]]
+  name = "关于我"
+  weight = 2
+  url = "about/"
